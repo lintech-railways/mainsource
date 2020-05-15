@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:17px;width:17px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Course<br>ADTLTPT</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#News" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">News</a> 
+    <a href="#Notes" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Notes</a> 
+    <a href="#Downloads" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Downloads</a> 
+    <a href="#Help" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Help</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Course ADTLTPT</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="News">
+  
+	  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933_960_720.png" style="width:100%">
+
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933_960_720.png" style="width:100%">
+
+
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933_960_720.png" style="width:100%">
+
+
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+      <p> <strong> Advanced Diploma in Logistics & Transport PT </strong> </p>
+
+    <h1 class="w3-xxxlarge w3-text-red"><b>News.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Railway Training Institute</p>
+    <p>Railway Training Institute has a rich history as being one of the oldest training institutions in the East African region dating back to the colonial era. 
+	The institute was set up to meet the increasing demand for skilled workforce required to manage the East African railways and harbors. On June 29, 1956, Fredrick 
+	Crowford, Deputy Governor of Kenya unveiled the plaque to inaugurate the institute as a center for developing human resources for the East African Railways. Upon 
+	dissolution of the then East African Railways and harbors in 1976 the institute became under full ownership of the Kenya Railways Corporation and focused exclusively 
+	on railway courses as a means of meeting the technical skills required to manage the Kenya railways systems in the country. However, upon an extensive feasibility study 
+	in the year 1988, a decision was arrived that the capacity of the institute was grossly under-utilized. It was then that the institute launched commercial courses in 
+	Engineering, Business Management, and Hospitality. These elaborate efforts at expansion earned the institute recognition from the Ministry of Education, Science, and 
+	Technology. Progressive improvement in academic performance and demand for quality training has led the institution to further diversify its academic courses to include 
+	Marine Courses and revamped rail curricular.
+    </p>
+  </div>
+
+  <!-- Notes -->
+  <div class="w3-container" id="Notes" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Notes.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Railway Training Institute</p>
+    <p>Railway Training Institute has a rich history as being one of the oldest training institutions in the East African region dating back to the colonial era. 
+	The institute was set up to meet the increasing demand for skilled workforce required to manage the East African railways and harbors. On June 29, 1956, Fredrick 
+	Crowford, Deputy Governor of Kenya unveiled the plaque to inaugurate the institute as a center for developing human resources for the East African Railways. Upon 
+	dissolution of the then East African Railways and harbors in 1976 the institute became under full ownership of the Kenya Railways Corporation and focused exclusively 
+	on railway courses as a means of meeting the technical skills required to manage the Kenya railways systems in the country. However, upon an extensive feasibility study 
+	in the year 1988, a decision was arrived that the capacity of the institute was grossly under-utilized. It was then that the institute launched commercial courses in 
+	Engineering, Business Management, and Hospitality. These elaborate efforts at expansion earned the institute recognition from the Ministry of Education, Science, and 
+	Technology. Progressive improvement in academic performance and demand for quality training has led the institution to further diversify its academic courses to include 
+	Marine Courses and revamped rail curricular.
+    </p>
+  </div>
+  
+  <!-- Downloads -->
+  <div class="w3-container" id="Downloads" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Downloads.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>You can download notes and other Course Activities here.</p>
+    <p>To provide practical and quality training in Transport and logistics responsive to a dynamic market environment through Research and Technology.
+    </p>
+    <p><b>To Download, Kindly Use the download tab on the Previous Page.</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png" alt="Professor" style="width:100%">
+        <div class="w3-container">
+          <h3>Professor .....</h3>
+          <p class="w3-opacity">Head of Department</p>
+          <p>To become a world-class training center committed to professional excellence.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png" alt="Mr" style="width:100%">
+        <div class="w3-container">
+          <h3>Mr...</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>To become a world-class training center committed to professional excellence.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png" alt="Mrs" style="width:100%">
+        <div class="w3-container">
+          <h3>Mrs....</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>To become a world-class training center committed to professional excellence.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Help / Pricing Tables -->
+  <div class="w3-container" id="Help" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Help.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>To provide practical and quality training in Transport and logistics responsive to a dynamic market environment through Research and Technology.</p>
+  </div>
+
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Need to get in touch with the team? We're all ears.</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
