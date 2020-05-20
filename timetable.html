@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+BODY {
+  font-family: Trebuchet MS;
+  margin:20px;
+  background-color: #FFFFFF;
+}
+
+H1 {
+  text-align: center;
+  color: #c72c2c;
+}
+
+.myTimetable {
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.myTimetable THEAD{
+  color: #c72c2c;
+}
+
+.myTimetable TBODY {
+  background-color: #FFFFFF;
+}
+
+.myTimetable TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+.break, .lunch {
+  background-color: #66BB6A !important;
+  font-style: italic;
+}
+
+.subject {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.room {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+</style>
+</head>
+<body>
+
+<H1>My Timetable</H1>
+<TABLE class="myTimetable"> 
+  <THEAD>
+    <TR>
+      <TH></TH>
+      <TH>Monday</TH>
+      <TH>Tuesday</TH>
+      <TH>Wednesday</TH>
+      <TH>Thursday</TH>
+      <TH>Friday</TH>     
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>T1</TD>
+      <TD>
+        <div class="subject">Unit 101</div>
+        <div class="room">A120</div>
+      </TD>
+      <TD>
+        <div class="subject">Unit 101</div>
+        <div class="room">C1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B21</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">A120</div>
+      </TD>
+       <TD>        
+         <div class="subject">Unit 101</div>
+        <div class="room">B101</div>
+      </TD>     
+    </TR>
+    <TR>
+      <TD>T2</TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">Lab1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B104</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">C17</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">A Gym</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">A120</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD colspan="6" class="break">Break</TD>
+      </TR>
+      <TR>
+      <TD>T3</TD>
+      <TD>        
+        <div class="subject">Unit 101.</div>
+        <div class="room">ICT 1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B21</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">C5</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B21</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">A24</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD colspan="6" class="lunch">Lunch</TD>
+    </TR>
+      <TR>
+      <TD>T4</TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B104</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">C17</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">A120</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B101</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">A Gym</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>T5</TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">C17</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">Lab1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B21</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">Lab1</div>
+      </TD>
+      <TD>        
+        <div class="subject">Unit 101</div>
+        <div class="room">B18</div>
+      </TD>
+    </TR>
+   </TBODY>
+  </TABLE>
+
+</body>
+</html>
