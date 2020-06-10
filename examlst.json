@@ -1,30 +1,12 @@
 [
         {
             "name": "Megatronic",
-            "categorie":"farewell ceremony"
+            "categorie":"Rules"
         },
         {
             "name": "Hydraulic",
-            "categorie":"Verse 1\n" +
-                "Praise to the Lord, the Almighty, The King of creation!\n" +
-                "O my soul, praise Him, for He is thy health and salvation!\n" +
-                "All ye who hear,\n" +
-                "Now to His temple draw near;\n" +
-                "Join ye in glad adoration!\"\n" +
-                "\n" +
-                "Verse  2\n" +
-                "Praise to the Lord, who o'er all things so wonderously reigneth\n" +
-                "Shieldeth thee under His wings, yea, so gently sustaineth!\n" +
-                "Hast thou not seen\n" +
-                "How thy desires e'er have been\n" +
-                "Granted in what He ordaineth?\n" +
-                "\n" +
-                "Verse  3\n" +
-                "Praise to the Lord, who doth prosper thy work and defend thee;\n" +
-                "Surely His goodness and mercy here daily attend thee;\n" +
-                "Ponder anew\n" +
-                "What the Almighty can do\n" +
-                "If with His love He befriend thee."
+            "categorie":"Rules"
+
         }
 
     ]
