@@ -7,9 +7,7 @@
         },
         {
             "name": "Hydraulic",
-            "categorie":"hight.",
-                "categorie":"weight.",
-                "categorie":"length."
+            "categorie":"length | Width | Height"
 
         }
 
